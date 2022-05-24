@@ -44,7 +44,9 @@ export function Moviegrid() {
 
    return (
        <center>
+
            <h1>Movies Ratings 2022</h1>
+
        <div className="ag-theme-alpine" style={{height: 500, width: 800,}}>   
            <AgGridReact defaultColDef={{sortable: true, filter: true,floatingFilter:true }}pagination={true}
                 rowData={rowData} columnDefs={colDefs} checkboxSelection={true}>
